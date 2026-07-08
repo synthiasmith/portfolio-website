@@ -62,28 +62,44 @@ export default function Home() {
         "Established a boutique leadership development consultancy. Delivered executive coaching, organizational alignment, and talent development solutions for over 1,200 clients, ranging from start-ups to Fortune 50 companies. Focused on driving culture change and sustainable high performance.",
     },
     {
-      company: "JMJ Associates",
+      company: "JMJ Culture Transformation Consulting",
       role: "Senior Consultant",
       period: "2008 - Present",
       location: "Austin, TX",
       description:
-        "Manage execution of safety culture transformation programs with budgets up to $5M. Lead major organizational changes for global organizations in manufacturing, energy, construction, and pharmaceutical industries on $40B+ giga-projects. Build stakeholder relationships and prototype training programs.",
+        "Manage execution of high-performance and safety culture transformation programs with budgets up to $5M for global organizations in manufacturing, energy, construction, and pharmaceutical industries on $40B+ giga-projects. Pioneered an online Safety Leadership Assessment tool, which reduced analysis and administration times by 80% while enhancing the precision of executive coaching feedback. Build strong stakeholder relationships, lead culture change for up to 13,000 staff, and prototype custom training programs.",
     },
     {
-      company: "JMJ Associates",
-      role: "Global Knowledge & Training Development Leader",
-      period: "2013 - 2014",
+      company: "Mastery of Learning®",
+      role: "Lead Facilitator & Curriculum Developer",
+      period: "1995 - 2007",
+      location: "International",
+      description:
+        "Co-led, led, and managed logistics for over 200 transformational learning courses over a 12-year span. Expanded the leadership curriculum by developing specialized courses for new markets.",
+    },
+    {
+      company: "Deep Change, LLC",
+      role: "Executive Coach & SQ21 Assessor",
+      period: "Consulting Projects",
       location: "Austin, TX",
       description:
-        "Led the High-Performance Projects and Assessments practice areas globally. Developed tools and programs to accelerate team alignment. Pioneered an online Safety Leadership Assessment tool, which reduced test analysis times by 80% while enhancing the precision of coaching feedback.",
+        "Delivered leadership assessments and coaching utilizing the SQ21 (Spiritual Intelligence) framework. Coached leaders on building emotional and spiritual intelligence to sustain high performance.",
+    },
+    {
+      company: "Equilibria",
+      role: "E-Colors Workshop Facilitator",
+      period: "Consulting Projects",
+      location: "Austin, TX",
+      description:
+        "Facilitated team alignment and cognitive diversity workshops based on the E-Colors behavioral framework, helping teams enhance communication, safety, and collaboration.",
     },
     {
       company: "ExxonMobil",
-      role: "HR Global Geoscience Training Leader & Geoscientist Roles",
-      period: "Previous experience",
+      role: "HR Global Geoscience Training Leader & Geoscientist",
+      period: "Previous Experience",
       location: "Houston, TX",
       description:
-        "Began career as Associate Exploration Geologist and progressed through various drilling and production geologist roles. Discovered a passion for training and talent development and transitioned into HR, designing and implementing global training and talent management programs for over 1,000 geoscientists.",
+        "Began career as exploration geoscientist and progressed through various drilling and production geoscience leadership roles (including Drilling & Evaluation Geologist, Senior Production Geologist, and Major Fields Coordinator). Discovered a passion for organizational development, training, and talent development, transitioning into HR to design and implement global training and talent management programs for over 1,000 geoscientists globally. Coordinated major in-house events and operations geology programs.",
     },
   ];
 
@@ -92,7 +108,13 @@ export default function Home() {
       institution: "Indiana University Bloomington",
       credential: "Bachelor of Science (BS)",
       subject: "Geological and Earth Sciences / Geosciences",
-      details: "Indiana University Year Abroad Program in France.",
+      details: "Gained B.S. degree with deep focus on structural geology, field studies, and rigorous physical earth sciences.",
+    },
+    {
+      institution: "Université de Strasbourg, France",
+      credential: "Year Abroad Program & French Language Degrees",
+      subject: "Geology, Linguistics, and Cultural Immersion",
+      details: "Conducted fully in French. Completed structural geology, field camp, and advanced linguistics courses during a year-long cultural immersion.",
     },
     {
       institution: "University of Houston",
@@ -104,38 +126,62 @@ export default function Home() {
       institution: "Dzogchen Osel Ling",
       credential: "Certificate of Completion",
       subject: "Tibetan Buddhism Meditation, Yoga, and Dzogchen",
-      details: "Rigorous 4-year lama training program in traditional Tibetan meditation and yoga practices. Included four 100-day cloistered, silent retreats.",
-    },
-    {
-      institution: "Université de Strasbourg, France",
-      credential: "1st & 2nd Degrees",
-      subject: "French Language Studies",
-      details: "Conducted fully in French as part of year-abroad language mastery program.",
+      details: "Rigorous 4-year lama training program in traditional Tibetan meditation and yoga practices. Included four 108-day cloistered retreats. Core differentiator of 52+ years of formal meditation practice.",
     },
   ];
 
   const certifications = [
     {
+      title: "AI Generalist Accelerator Program",
+      issuer: "Outskill",
+      date: "2026",
+      category: "mindset",
+    },
+    {
+      title: "Thrive Conference Speaking & Business Building",
+      issuer: "Rory Varden",
+      date: "Feb 2026",
+      category: "speaking",
+    },
+    {
+      title: "National Speakers Association (NSA) Member",
+      issuer: "NSA Austin Chapter (16 years of chapter events & professional speaking skill development)",
+      date: "2009 - Present",
+      category: "speaking",
+    },
+    {
+      title: "Vincent Phipps Pro Speaker Kit",
+      issuer: "Vincent Phipps",
+      date: "Nov 2025",
+      category: "speaking",
+    },
+    {
+      title: "Women Rocking Business Coaching Program & Intensive",
+      issuer: "Women Rocking Business (56+ days of training)",
+      date: "2024 - 2025",
+      category: "speaking",
+    },
+    {
       title: "Performance Neuroscience Coaching Certification (PNCC)",
       issuer: "Flow Research Collective",
-      date: "Jul 2025",
+      date: "Aug 2025",
       category: "neuroscience",
     },
     {
-      title: "Positive Intelligence® Coach",
+      title: "Positive Intelligence® Pro Coach Program",
       issuer: "Positive Intelligence",
-      date: "Oct 2024",
+      date: "Mar 2026",
       category: "mindset",
     },
     {
       title: "Holistic Coach Certification Program",
-      issuer: "Radiant Health Institute (In process)",
-      date: "Jan 2025",
+      issuer: "Radiant Coaches Academy (In progress)",
+      date: "2026",
       category: "coaching",
     },
     {
       title: "Inner MBA Program",
-      issuer: "Sounds True",
+      issuer: "Sounds True (12 months)",
       date: "Aug 2023",
       category: "coaching",
     },
@@ -148,25 +194,25 @@ export default function Home() {
     {
       title: "Team Coaching Foundations Certified Coach",
       issuer: "Global Team Coaching Institute (GTCI)",
-      date: "Oct 2020",
+      date: "Oct 2010",
       category: "coaching",
     },
     {
       title: "Coach Master Toolkit Certification",
-      issuer: "Coaching.com",
+      issuer: "Global Team Coaching Institute / Coaching.com",
       date: "Jul 2019",
       category: "coaching",
     },
     {
       title: "Conversational Intelligence Certification",
-      issuer: "Coaching.com (Judith Glasier)",
+      issuer: "Coaching.com (Judith Glaser)",
       date: "Dec 2017",
       category: "neuroscience",
     },
     {
       title: "Spiritual Intelligence SQ21 Assessment",
       issuer: "Deep Change, LLC",
-      date: "Nov 2011",
+      date: "Nov 2010",
       category: "mindset",
     },
     {
@@ -177,49 +223,43 @@ export default function Home() {
     },
     {
       title: "SDMS (Self-Directed Motivation System) Management Development Coaching",
-      issuer: "Informatica",
+      issuer: "Pfeifer / Informatica",
       date: "May 2005",
       category: "coaching",
     },
     {
       title: "Corporate Advanced Coaching Intensive",
-      issuer: "The Sherry Lowry Group",
+      issuer: "Corporate Advanced Coaching (Sherry Lowry)",
       date: "May 2005",
       category: "coaching",
     },
     {
-      title: "Primary Certification, Marshall Goldsmith Executive Coaching",
+      title: "Marshall Goldsmith Behavioral Coaching Certification Program",
       issuer: "Marshall Goldsmith Stakeholder Centered Coaching",
       date: "Apr 2004",
       category: "coaching",
     },
     {
-      title: "Halpin Leadership Strategist",
-      issuer: "Halpin Lenard & Partners",
+      title: "Halpin Leadership Strategist Executive Coaching Program",
+      issuer: "Halpin Companies",
       date: "Jun 2004",
-      category: "mindset",
+      category: "coaching",
     },
     {
-      title: "Leadership Coaching Program",
+      title: "Right Management Consultants Leadership Coaching Program",
       issuer: "Right Management Consultants",
       date: "Feb 2003",
       category: "coaching",
     },
     {
-      title: "ICF Member Badge",
-      issuer: "International Coaching Federation",
-      date: "Feb 2006",
-      category: "coaching",
-    },
-    {
-      title: "Coach Graduate Certification",
+      title: "Legacy Learning Graduate Coach Certification",
       issuer: "Legacy Learning, LLC",
       date: "Aug 2005",
       category: "coaching",
     },
     {
-      title: "Over 300 Days of Professional Development in Coaching, Consulting & Training",
-      issuer: "ExxonMobil, JMJ Associates, Sage Innovations, Cognitive Edge",
+      title: "An additional 300+ days of professional development in coaching, consulting, and training",
+      issuer: "ExxonMobil, JMJ Culture Transformation Consulting, Sage Innovations, Cognitive Edge, WEA, Landmark",
       date: "Various",
       category: "coaching",
     },
@@ -227,8 +267,9 @@ export default function Home() {
 
   const categories = [
     { id: "all", label: "All Credentials" },
+    { id: "speaking", label: "Speaking & Facilitation" },
     { id: "neuroscience", label: "Neuroscience & Flow" },
-    { id: "mindset", label: "Mindset & Facilitation" },
+    { id: "mindset", label: "Mindset & Leadership" },
     { id: "coaching", label: "Executive Coaching" },
   ];
 
@@ -241,7 +282,7 @@ export default function Home() {
     <div className="w-full min-h-screen bg-background text-foreground flex flex-col items-center transition-colors duration-300">
       {/* 1. Header Navigation */}
       <header className="sticky top-0 z-50 h-[72px] w-full border-b border-card-border/80 bg-background/80 backdrop-blur-md flex justify-center">
-        <div className="mx-auto flex h-full max-w-5xl items-center justify-between px-6 sm:px-12">
+        <div className="flex h-full w-full max-w-5xl items-center justify-between px-6 sm:px-12">
           <a href="#" className="text-lg font-bold tracking-tight text-foreground">
             Synthia Smith
           </a>
@@ -268,7 +309,7 @@ export default function Home() {
             </a>
             <a
               href="#contact"
-              className="rounded-full bg-accent px-4 py-2 text-sm text-accent-foreground font-semibold transition-transform hover:scale-105 active:scale-[0.98]"
+              className="rounded-full bg-accent px-6 py-2.5 text-sm text-accent-foreground font-semibold transition-transform hover:scale-105 active:scale-[0.98] whitespace-nowrap block text-center min-w-[110px]"
             >
               Let&apos;s Talk
             </a>
@@ -366,10 +407,10 @@ export default function Home() {
       </AnimatePresence>
 
       {/* Main Container */}
-      <main className="w-full max-w-5xl px-6 sm:px-12 py-12 space-y-36 md:space-y-48">
+      <main className="w-full max-w-5xl px-6 sm:px-12 pt-4 pb-24">
         
         {/* 2. Hero Section */}
-        <section className="flex min-h-[calc(85vh-72px)] flex-col justify-center py-12">
+        <section className="pb-8" style={{ paddingTop: 'clamp(5rem, 8vw, 6.5rem)' }}>
           <div className="grid gap-12 md:grid-cols-12 md:items-center">
             {/* Left Content */}
             <div className="space-y-8 md:col-span-7">
@@ -380,7 +421,7 @@ export default function Home() {
               <h1 className="text-4xl font-bold tracking-tight leading-[1.15] sm:text-5xl lg:text-6xl">
                 Lead with calm. <br />
                 Perform with clarity. <br />
-                <span className="text-accent">Thrive in change.</span>
+                <span className="text-accent">Thrive and change.</span>
               </h1>
               <p className="max-w-[45ch] text-base text-muted md:text-lg leading-relaxed">
                 Helping high-achieving leaders realign success with what matters most, so they can lead powerfully without losing themselves.
@@ -424,42 +465,54 @@ export default function Home() {
         </section>
 
         {/* 3. About Section */}
-        <section id="about" className="scroll-mt-24">
+        <section id="about" className="scroll-mt-24" style={{ paddingTop: 'clamp(2.5rem, 6vw, 4.5rem)' }}>
           <div className="grid gap-12 md:grid-cols-12">
             <div className="md:col-span-4">
               <h2 className="text-2xl font-bold tracking-tight md:text-3xl">About Synthia</h2>
               <div className="mt-4 h-0.5 w-12 bg-accent-secondary rounded-full"></div>
             </div>
             <div className="md:col-span-8 space-y-6">
+              <h3 className="text-xl font-bold tracking-tight text-foreground">A Category of One for Executive Transformation</h3>
               <p className="text-lg font-light leading-relaxed text-foreground/90 max-w-[65ch]">
-                Is the cost of your success starting to feel too high?
+                True leadership doesn&apos;t break under pressure; it centers. Most executive coaches speak of performance, and most mainstream mindfulness teachers speak of peace. Very few bridge the two.
               </p>
               <p className="text-base text-muted leading-relaxed max-w-[65ch]">
-                You’ve built success the hard way, with grit, intelligence, and a deep drive to make a difference. Yet something’s off. The pace, the pressure, and the compromises are catching up.
+                For three decades, I have stood at the intersection of rigorous science, industrial-scale execution, and deep inner mastery. My background is built on:
               </p>
+              <ul className="space-y-3 text-sm text-muted max-w-[65ch] pl-1">
+                <li className="flex gap-3">
+                  <span className="text-accent-secondary font-bold select-none shrink-0">•</span>
+                  <span><strong className="text-foreground font-semibold">Corporate Rigor & Giga-Scale Execution:</strong> Transitioning from a geoscientist to an HR Global Training Leader at ExxonMobil, then managing high-performance culture transformations for $40B+ projects at JMJ Culture Transformation Consulting.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent-secondary font-bold select-none shrink-0">•</span>
+                  <span><strong className="text-foreground font-semibold">Decades of Strategic Advisory:</strong> Advising over 1,200 executives, start-up founders, and Fortune 50 leaders through The Mitra Group to align operational success with human wellbeing.</span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-accent-secondary font-bold select-none shrink-0">•</span>
+                  <span><strong className="text-foreground font-semibold">Unparalleled Inner Depth:</strong> A 52+ year formal meditation practice, including four 108-day cloistered retreats—bringing a level of psychological capacity, focus, and clarity that cannot be replicated.</span>
+                </li>
+              </ul>
               <p className="text-base text-muted leading-relaxed max-w-[65ch]">
-                I help high-achieving leaders realign success with what matters most, so they can lead powerfully without losing themselves.
-              </p>
-              <p className="text-base text-muted leading-relaxed max-w-[65ch]">
-                For nearly three decades, I’ve partnered with leaders and teams to build cultures where wellbeing fuels performance because when leaders are clear, centered, and connected, they do their best work and live their best lives.
+                Whether speaking to hundreds, facilitating high-stakes leadership retreats, or coaching high-performing decision-makers, I help leaders navigate disruption with pragmatic intuition and unwavering calm.
               </p>
             </div>
           </div>
         </section>
 
         {/* 4. Philosophy & Approach */}
-        <section id="philosophy" className="scroll-mt-24">
+        <section id="philosophy" className="scroll-mt-24" style={{ paddingTop: 'clamp(4rem, 10vw, 7rem)' }}>
           <div className="space-y-16">
             <div className="max-w-2xl">
               <h2 className="text-2xl font-bold tracking-tight md:text-3xl">Philosophy & Approach</h2>
               <p className="mt-3 text-sm text-muted">
-                Combining science, strategic experience, and deep leadership practices to drive measurable, lasting change.
+                Combining science, strategic experience, and deep leadership practices to drive measurable, lasting&nbsp;change.
               </p>
             </div>
 
-            <div className="grid gap-8 md:grid-cols-2">
-              {/* Card 1: What makes my approach different */}
-              <div className="rounded-2xl border border-card-border bg-card/60 p-8 shadow-sm space-y-6 hover:shadow-md transition-shadow">
+            <div className="grid gap-12 md:grid-cols-2">
+              {/* Column 1: What makes my approach different */}
+              <div className="space-y-6 pt-6 border-t border-card-border/40">
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-accent/10 text-accent">
                   <Sparkle size={20} weight="bold" />
                 </div>
@@ -468,7 +521,7 @@ export default function Home() {
                   <li className="flex gap-3">
                     <CheckCircle size={18} className="text-accent-secondary shrink-0 mt-0.5" weight="fill" />
                     <span>
-                      <strong className="text-foreground font-semibold">Transformational depth:</strong> Decades of coaching and consulting experience meet the inner work of authentic leadership.
+                      <strong className="text-foreground font-semibold">Transformational depth:</strong> Decades of coaching and consulting experience meet the inner work of authentic leadership and 52+ years of formal meditation practice.
                     </span>
                   </li>
                   <li className="flex gap-3">
@@ -486,8 +539,8 @@ export default function Home() {
                 </ul>
               </div>
 
-              {/* Card 2: Clients experience */}
-              <div className="rounded-2xl border border-card-border bg-card/60 p-8 shadow-sm space-y-6 hover:shadow-md transition-shadow">
+              {/* Column 2: Clients experience */}
+              <div className="space-y-6 pt-6 border-t border-card-border/40">
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-accent-secondary/10 text-accent-secondary">
                   <Certificate size={20} weight="bold" />
                 </div>
@@ -518,8 +571,8 @@ export default function Home() {
         </section>
 
         {/* 5. Featured Work Section */}
-        <section id="featured" className="scroll-mt-24">
-          <div className="space-y-16">
+        <section id="featured" className="scroll-mt-24" style={{ paddingTop: 'clamp(4rem, 10vw, 7rem)' }}>
+          <div className="space-y-12">
             <div className="max-w-2xl">
               <h2 className="text-2xl font-bold tracking-tight md:text-3xl">Featured Solutions</h2>
               <p className="mt-3 text-sm text-muted">
@@ -527,32 +580,46 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="grid gap-8 md:grid-cols-2">
-              <div className="flex flex-col justify-between rounded-2xl border border-card-border bg-card/60 p-8 shadow-sm">
+            <div className="grid gap-8 md:grid-cols-3">
+              <div className="flex flex-col justify-between pt-6 border-t border-card-border/40">
                 <div className="space-y-4">
-                  <div className="text-xs uppercase tracking-wider text-accent-secondary font-bold font-mono">Tools & Innovation</div>
-                  <h3 className="text-xl font-bold tracking-tight">Online Safety Leadership Assessment Tool</h3>
+                  <div className="text-xs uppercase tracking-wider text-accent-secondary font-bold font-mono">Culture Transformation</div>
+                  <h3 className="text-xl font-bold tracking-tight">High-Performance Culture Transformation</h3>
                   <p className="text-xs text-muted leading-relaxed">
-                    Designed and pioneered a digital diagnostic assessment tool for global organizations. This system consolidated data gathering, cutting analysis and administration turnaround times by 80% while enhancing custom feedback.
+                    Directing alignment and behavioral culture change for global enterprises in manufacturing, energy, construction, and pharma on projects up to 13,000 staff.
                   </p>
                 </div>
                 <div className="mt-8 pt-6 border-t border-card-border/40 flex items-center justify-between">
-                  <span className="text-3xl font-extrabold text-accent">80%</span>
-                  <span className="text-[10px] text-muted max-w-[15ch] text-right font-medium">Reduction in Admin & Analysis Time</span>
+                  <span className="text-3xl font-extrabold text-accent">$40B+</span>
+                  <span className="text-[10px] text-muted max-w-[15ch] text-right font-medium">Giga-Projects Transformed</span>
                 </div>
               </div>
 
-              <div className="flex flex-col justify-between rounded-2xl border border-card-border bg-card/60 p-8 shadow-sm">
+              <div className="flex flex-col justify-between pt-6 border-t border-card-border/40">
                 <div className="space-y-4">
-                  <div className="text-xs uppercase tracking-wider text-accent font-bold font-mono">Program Management</div>
-                  <h3 className="text-xl font-bold tracking-tight">Safety Culture Transformation</h3>
+                  <div className="text-xs uppercase tracking-wider text-accent font-bold font-mono">Executive Coaching</div>
+                  <h3 className="text-xl font-bold tracking-tight">Inner Edge™ Executive Coaching</h3>
                   <p className="text-xs text-muted leading-relaxed">
-                    Managed culture change programs with budgets up to $5M in global energy, manufacturing, and pharmaceutical organizations. Successfully integrated behavioral change across large-scale projects up to 13,000 staff.
+                    Elite 1:1 advisory and cohorts for high-achieving leaders, integrating cognitive psychology, performance neuroscience, and 50+ years of meditative depth.
                   </p>
                 </div>
                 <div className="mt-8 pt-6 border-t border-card-border/40 flex items-center justify-between">
-                  <span className="text-3xl font-extrabold text-accent-secondary">$40B+</span>
-                  <span className="text-[10px] text-muted max-w-[15ch] text-right font-medium">Giga-Projects Supported Globally</span>
+                  <span className="text-3xl font-extrabold text-accent-secondary">1,200+</span>
+                  <span className="text-[10px] text-muted max-w-[15ch] text-right font-medium">Leaders Advised & Coached</span>
+                </div>
+              </div>
+
+              <div className="flex flex-col justify-between pt-6 border-t border-card-border/40">
+                <div className="space-y-4">
+                  <div className="text-xs uppercase tracking-wider text-accent-secondary font-bold font-mono">Speaking & Events</div>
+                  <h3 className="text-xl font-bold tracking-tight">Keynotes & Retreat Facilitation</h3>
+                  <p className="text-xs text-muted leading-relaxed">
+                    High-impact speaking and offsite leadership facilitation designed for events, retreats, and forums to help teams navigate change, complexity, and uncertainty.
+                  </p>
+                </div>
+                <div className="mt-8 pt-6 border-t border-card-border/40 flex items-center justify-between">
+                  <span className="text-3xl font-extrabold text-accent">52+ Yrs</span>
+                  <span className="text-[10px] text-muted max-w-[15ch] text-right font-medium">Of Meditative Rigor & Depth</span>
                 </div>
               </div>
             </div>
@@ -560,7 +627,7 @@ export default function Home() {
         </section>
 
         {/* 6. Work Experience (Timeline) */}
-        <section id="experience" className="scroll-mt-24">
+        <section id="experience" className="scroll-mt-24" style={{ paddingTop: 'clamp(4rem, 10vw, 7rem)' }}>
           <div className="space-y-16">
             <div className="max-w-2xl">
               <h2 className="text-2xl font-bold tracking-tight md:text-3xl">Executive Journey</h2>
@@ -598,18 +665,18 @@ export default function Home() {
         </section>
 
         {/* 7. Education Section */}
-        <section id="education" className="scroll-mt-24">
-          <div className="space-y-16">
+        <section id="education" className="scroll-mt-24" style={{ paddingTop: 'clamp(4rem, 10vw, 7rem)' }}>
+          <div className="space-y-12">
             <div className="max-w-2xl">
               <h2 className="text-2xl font-bold tracking-tight md:text-3xl">Academic & Personal Training</h2>
               <p className="mt-3 text-sm text-muted">
-                A multidisciplinary background combining geology, human psychology, language study, and mindfulness.
+                A multidisciplinary background combining geoscience, human psychology, and rigorous contemplative training.
               </p>
             </div>
 
             <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-2 max-w-4xl">
               {education.map((edu, idx) => (
-                <div key={idx} className="flex flex-col justify-between rounded-2xl border border-card-border bg-card/40 p-6 shadow-sm">
+                <div key={idx} className="flex flex-col justify-between pt-6 border-t border-card-border/40">
                   <div className="space-y-3">
                     <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-accent/10 text-accent">
                       <GraduationCap size={18} weight="bold" />
@@ -629,7 +696,7 @@ export default function Home() {
         </section>
 
         {/* 8. Certifications Section */}
-        <section id="certifications" className="scroll-mt-24">
+        <section id="certifications" className="scroll-mt-24" style={{ paddingTop: 'clamp(4rem, 10vw, 7rem)' }}>
           <div className="space-y-16">
             <div className="max-w-2xl">
               <h2 className="text-2xl font-bold tracking-tight md:text-3xl">Professional Credentials</h2>
@@ -665,7 +732,13 @@ export default function Home() {
                   </div>
                   <div className="flex items-center gap-4 justify-between sm:justify-end">
                     <span className="text-[9px] uppercase font-bold tracking-wider text-accent-secondary font-mono bg-accent-secondary/15 px-2 py-0.5 rounded-full">
-                      {cert.category === "neuroscience" ? "Neuroscience" : cert.category === "mindset" ? "Mindset" : "Executive"}
+                      {cert.category === "neuroscience"
+                        ? "Neuroscience"
+                        : cert.category === "mindset"
+                        ? "Mindset"
+                        : cert.category === "speaking"
+                        ? "Speaking & Facilitation"
+                        : "Executive Coaching"}
                     </span>
                     <span className="text-xs text-muted-foreground font-mono">{cert.date}</span>
                   </div>
@@ -676,8 +749,8 @@ export default function Home() {
         </section>
 
         {/* 9. Contact Section */}
-        <section id="contact" className="scroll-mt-24">
-          <div className="rounded-3xl border border-card-border bg-card/60 p-8 md:p-12 shadow-sm max-w-4xl mx-auto">
+        <section id="contact" className="scroll-mt-24" style={{ paddingTop: 'clamp(4rem, 10vw, 7rem)' }}>
+          <div className="border-t border-card-border/40 pt-12 max-w-4xl mx-auto">
             <div className="grid gap-12 md:grid-cols-2">
               <div className="space-y-6">
                 <div className="inline-flex items-center gap-2 rounded-full border border-card-border bg-background px-3 py-1 text-xs font-semibold uppercase tracking-wider text-accent-secondary">
