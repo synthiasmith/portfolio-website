@@ -410,7 +410,7 @@ export default function Home() {
       <main className="w-full max-w-5xl px-6 sm:px-12 pt-4 pb-24">
         
         {/* 2. Hero Section */}
-        <section className="pb-8" style={{ paddingTop: 'clamp(5rem, 8vw, 6.5rem)' }}>
+        <section className="pb-8" style={{ paddingTop: 'clamp(2.5rem, 4vw, 3.25rem)' }}>
           <div className="grid gap-12 md:grid-cols-12 md:items-center">
             {/* Left Content */}
             <div className="space-y-8 md:col-span-7">
@@ -501,7 +501,7 @@ export default function Home() {
         </section>
 
         {/* 4. Philosophy & Approach */}
-        <section id="philosophy" className="scroll-mt-24" style={{ paddingTop: 'clamp(4rem, 10vw, 7rem)' }}>
+        <section id="philosophy" className="scroll-mt-24" style={{ paddingTop: 'clamp(2rem, 5vw, 3.5rem)' }}>
           <div className="space-y-16">
             <div className="max-w-2xl">
               <h2 className="text-2xl font-bold tracking-tight md:text-3xl">Philosophy & Approach</h2>
@@ -571,7 +571,7 @@ export default function Home() {
         </section>
 
         {/* 5. Featured Work Section */}
-        <section id="featured" className="scroll-mt-24" style={{ paddingTop: 'clamp(4rem, 10vw, 7rem)' }}>
+        <section id="featured" className="scroll-mt-24" style={{ paddingTop: 'clamp(2rem, 5vw, 3.5rem)' }}>
           <div className="space-y-12">
             <div className="max-w-2xl">
               <h2 className="text-2xl font-bold tracking-tight md:text-3xl">Featured Solutions</h2>
@@ -627,7 +627,7 @@ export default function Home() {
         </section>
 
         {/* 6. Work Experience (Timeline) */}
-        <section id="experience" className="scroll-mt-24" style={{ paddingTop: 'clamp(4rem, 10vw, 7rem)' }}>
+        <section id="experience" className="scroll-mt-24" style={{ paddingTop: 'clamp(2rem, 5vw, 3.5rem)' }}>
           <div className="space-y-16">
             <div className="max-w-2xl">
               <h2 className="text-2xl font-bold tracking-tight md:text-3xl">Executive Journey</h2>
@@ -665,7 +665,7 @@ export default function Home() {
         </section>
 
         {/* 7. Education Section */}
-        <section id="education" className="scroll-mt-24" style={{ paddingTop: 'clamp(4rem, 10vw, 7rem)' }}>
+        <section id="education" className="scroll-mt-24" style={{ paddingTop: 'clamp(2rem, 5vw, 3.5rem)' }}>
           <div className="space-y-12">
             <div className="max-w-2xl">
               <h2 className="text-2xl font-bold tracking-tight md:text-3xl">Academic & Personal Training</h2>
@@ -696,7 +696,7 @@ export default function Home() {
         </section>
 
         {/* 8. Certifications Section */}
-        <section id="certifications" className="scroll-mt-24" style={{ paddingTop: 'clamp(4rem, 10vw, 7rem)' }}>
+        <section id="certifications" className="scroll-mt-24" style={{ paddingTop: 'clamp(2rem, 5vw, 3.5rem)' }}>
           <div className="space-y-16">
             <div className="max-w-2xl">
               <h2 className="text-2xl font-bold tracking-tight md:text-3xl">Professional Credentials</h2>
@@ -749,7 +749,7 @@ export default function Home() {
         </section>
 
         {/* 9. Contact Section */}
-        <section id="contact" className="scroll-mt-24" style={{ paddingTop: 'clamp(4rem, 10vw, 7rem)' }}>
+        <section id="contact" className="scroll-mt-24" style={{ paddingTop: 'clamp(2rem, 5vw, 3.5rem)' }}>
           <div className="border-t border-card-border/40 pt-12 max-w-4xl mx-auto">
             <div className="grid gap-12 md:grid-cols-2">
               <div className="space-y-6">
