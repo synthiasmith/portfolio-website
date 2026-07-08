@@ -726,7 +726,7 @@ export default function Home() {
                   Connect on LinkedIn
                 </a>
                 <a
-                  href="https://github.com/synthia-arch"
+                  href="https://github.com/synthiasmith"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex w-full items-center justify-center gap-3 rounded-xl border border-card-border bg-card px-6 py-4 text-sm font-semibold transition-colors hover:bg-card-border/30"
@@ -751,7 +751,7 @@ export default function Home() {
             <a href="http://www.themitragroup.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground">
               The Mitra Group
             </a>
-            <a href="https://github.com/synthia-arch" target="_blank" rel="noopener noreferrer" className="hover:text-foreground">
+            <a href="https://github.com/synthiasmith" target="_blank" rel="noopener noreferrer" className="hover:text-foreground">
               GitHub
             </a>
           </div>
