@@ -238,9 +238,9 @@ export default function Home() {
       : certifications.filter((c) => c.category === activeCertTab);
 
   return (
-    <div className="min-h-screen w-full bg-background text-foreground transition-colors duration-300">
+    <div className="w-full min-h-screen bg-background text-foreground flex flex-col items-center transition-colors duration-300">
       {/* 1. Header Navigation */}
-      <header className="sticky top-0 z-50 h-[72px] w-full border-b border-card-border/80 bg-background/80 backdrop-blur-md">
+      <header className="sticky top-0 z-50 h-[72px] w-full border-b border-card-border/80 bg-background/80 backdrop-blur-md flex justify-center">
         <div className="mx-auto flex h-full max-w-5xl items-center justify-between px-6 sm:px-12">
           <a href="#" className="text-lg font-bold tracking-tight text-foreground">
             Synthia Smith
@@ -366,7 +366,7 @@ export default function Home() {
       </AnimatePresence>
 
       {/* Main Container */}
-      <main className="mx-auto max-w-5xl px-6 sm:px-12 py-12 space-y-36 md:space-y-48">
+      <main className="w-full max-w-5xl px-6 sm:px-12 py-12 space-y-36 md:space-y-48">
         
         {/* 2. Hero Section */}
         <section className="flex min-h-[calc(85vh-72px)] flex-col justify-center py-12">
@@ -741,7 +741,7 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-card-border/40 py-8 bg-card/10">
+      <footer className="border-t border-card-border/40 py-8 bg-card/10 w-full flex justify-center">
         <div className="mx-auto max-w-5xl px-6 sm:px-12 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted">
           <p>© {new Date().getFullYear()} Synthia Smith. All rights reserved.</p>
           <div className="flex gap-6">
