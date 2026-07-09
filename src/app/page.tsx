@@ -397,7 +397,7 @@ export default function Home() {
               <a
                 href="#contact"
                 onClick={() => setMenuOpen(false)}
-                className="inline-block rounded-full bg-accent py-2 text-center text-accent-foreground font-semibold"
+                className="block rounded-full bg-accent px-6 py-2.5 text-center text-sm text-accent-foreground font-semibold transition-transform hover:scale-105 active:scale-[0.98]"
               >
                 Let&apos;s Talk
               </a>
@@ -438,7 +438,7 @@ export default function Home() {
                   href="https://www.linkedin.com/in/synthia-smith/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 rounded-full border border-card-border bg-card px-6 py-3 text-sm font-semibold transition-colors hover:bg-card-border/30"
+                  className="inline-flex items-center gap-2 rounded-full border border-card-border bg-card px-6 py-3 text-sm font-semibold transition-transform hover:scale-105 active:scale-[0.98] shadow-sm"
                 >
                   <LinkedinLogo size={18} />
                   Connect on LinkedIn
@@ -784,7 +784,7 @@ export default function Home() {
               <div className="flex flex-col justify-center space-y-4">
                 <a
                   href="mailto:synthia@themitragroup.com"
-                  className="flex w-full items-center justify-center gap-3 rounded-xl bg-accent px-6 py-4 text-sm text-accent-foreground font-semibold transition-transform hover:scale-105 active:scale-[0.98] shadow-sm"
+                  className="flex w-full items-center justify-center gap-3 rounded-full bg-accent px-6 py-4 text-sm text-accent-foreground font-semibold transition-transform hover:scale-105 active:scale-[0.98] shadow-sm"
                 >
                   <Envelope size={18} weight="bold" />
                   Email Synthia Direct
@@ -793,7 +793,7 @@ export default function Home() {
                   href="https://www.linkedin.com/in/synthia-smith/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex w-full items-center justify-center gap-3 rounded-xl border border-card-border bg-card px-6 py-4 text-sm font-semibold transition-colors hover:bg-card-border/30"
+                  className="flex w-full items-center justify-center gap-3 rounded-full border border-card-border bg-card px-6 py-4 text-sm font-semibold transition-transform hover:scale-105 active:scale-[0.98] shadow-sm"
                 >
                   <LinkedinLogo size={18} />
                   Connect on LinkedIn
@@ -802,7 +802,7 @@ export default function Home() {
                   href="https://github.com/synthiasmith"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex w-full items-center justify-center gap-3 rounded-xl border border-card-border bg-card px-6 py-4 text-sm font-semibold transition-colors hover:bg-card-border/30"
+                  className="flex w-full items-center justify-center gap-3 rounded-full border border-card-border bg-card px-6 py-4 text-sm font-semibold transition-transform hover:scale-105 active:scale-[0.98] shadow-sm"
                 >
                   <GithubLogo size={18} />
                   Explore GitHub
